@@ -1,5 +1,4 @@
 # SQL-Intl.-Debt-Analysis
-# Intl. Debt Analysis
 ![Power BI](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![POSTGRESQL](https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white)
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
@@ -25,21 +24,23 @@ The focus of this project is to delve into the realm of international debt analy
 
     ├── LICENSE
     ├── README.md          <- README for using this project.
-    ├── query              <- Code of the DB creation and queries.
+    ├── Queries             <- Code of the DB creation and queries.
     │   │
-    │   └── pizza_sales_db.sql       <- DB creation.
-    │   └── query.sql                <- Final queries.
+    │   └── Queried_Data             <- Data that has been queried.
+    |   └── Database.sql             <- DB creation.
+    │   └── Queries.sql              <- Final queries.
 
-    ├── reports            <- Folder containing the final reports/results of this project.
+    ├── Reports            <- Folder containing the final reports/results of this project.
     │   │
-    │   └── Pizza_Sales_Report.pdf   <- Final analysis report in PDF.
-    │   └── query_report.pdf         <- Final query report in PDF for verifying data.
+    │   └── IDS_queries_Report.pdf   <- Final analysis report in Word.
+    │   └── Int Debt.pbix         <- Final query report in Power BI for verifying data.
+    |   └── International Debt Statistics 2022 - IDR2022-Data-Documentation.pdf    <- Intl' debt statistics in PDF.
     │   
-    ├── src                <- Source for this project.
+    ├── Source                <- Source for this project.
         │
-        ├── data           <- Datasets used and collected for this project.
+        ├── Data           <- Datasets used and collected for this project.
         │   
-        ├── pizza_sales_images       <- Additional images for Dashboards.
+        ├── Dashboard_Images       <- Additional images for Dashboards.
         │
         ├── data_dictionary.csv      <- Data Dictionary for the dataset.
 
